@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom";
 import logo from "./logo.svg";
 import "./App.css";
 import Button from "./Button";
+import * as TextCollection from "./TextCollection";
 
 class OldApp extends React.Component {
   render() {
@@ -35,30 +36,42 @@ interface GreetingProps {
 
 interface GreetingState {
   count: number,
+  renderAsList: boolean,
 }
 
 class Greeting extends React.Component<GreetingProps, GreetingState> {
   constructor(props: GreetingProps) {
     super(props);
-    this.state = { count: 0 };
-    this.handleClick = this.handleClick.bind(this);
+    this.state = { count: 0, renderAsList: true };
+    this.handleGreetMeClick = this.handleGreetMeClick.bind(this);
+    this.handleToggleFormatClick = this.handleToggleFormatClick.bind(this);
   }
   render() {
-    let message: string = "";
+    let greetings: string[] = [];
     for (let num = 0; num <= this.state.count; num++) {
-	message += "Hello there " + this.props.name + "\n";
+	greetings.push("Hello there " + this.props.name);
     }
+
     return (
 	<div>
-		<button onClick={this.handleClick}>greet me!</button>
+		<button onClick={this.handleToggleFormatClick}>toggle format</button>
+		<button onClick={this.handleGreetMeClick}>greet me!</button>
+		{this.state.renderAsList
+		  ? <TextCollection.AsList verbatims={greetings}/>
+		  : <TextCollection.AsPlainText verbatims={greetings}/>}
 		<h1>{this.state.count}</h1>
-		<pre>{message}</pre>
 	</div>
     );
   }
 
-  handleClick() {
+  handleGreetMeClick() {
+    console.log(`before button click state is: ${this.state.count}`);
     this.setState(state => ({ count: state.count + 1}));
+    console.log(`after button click state is: ${this.state.count}`);
+  }
+
+  handleToggleFormatClick() {
+    this.setState(state => ({renderAsList: !state.renderAsList}));
   }
 }
 
