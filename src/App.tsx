@@ -27,22 +27,21 @@ class App extends React.Component {
         <h1 className="Section-header">Audio Samples</h1>
 
         <div className="SoundCloud-player-row">
-	  <SoundCloud.EmbeddedPlayer trackNumber={78986132} hexColor="000000" />
-	  <SoundCloud.EmbeddedPlayer trackNumber={244308292} hexColor="000000" />
-	  <SoundCloud.EmbeddedPlayer trackNumber={244308292} hexColor="000000" />
+	  <SoundCloud.EmbeddedPlayer trackNumber={1267237321} hexColor="000000" />
+	  <SoundCloud.EmbeddedPlayer trackNumber={1267237897} hexColor="000000" />
         </div>
         <h1 className="Section-header">Setup</h1>
 	<div className="Center-text">
 	  Requires a synthesizer with <a href="https://en.wikipedia.org/wiki/MIDI#MIDI_Polyphonic_Expression">MIDI Polyphonic Expression</a> support such as <a href="https://vital.audio/">Vital</a> or <a href="https://www.ableton.com/en/packs/operator/">Operator</a>
 	</div>
 	<ol className="Ul">
-	  <li>Unzip the DeepGliss download and move its contents to your VST2 plugin directory</li>
+	  <li>Move the DeepGliss download to your VST2 plugin directory</li>
 	  <li>In your DAW, route MIDI input into DeepGliss and the MIDI output of DeepGliss into your synthesizer</li>
 	  <li>Set DeepGliss's pitchbend range (under settings) to match the synthesizer's pitchbend range</li>
 	</ol>
         <h1 className="Section-header">Feedback</h1>
 	<div className="Center-text">
-	  Bug reports, feature requests, presets, themes, and general suggestions are greatly appreciated via <a href="https://github.com/JoshuaPostel/DeepGliss/issues">GitHub</a>
+	  Bug reports, feature requests, presets, sounds, and general suggestions are greatly appreciated via <a href="https://github.com/JoshuaPostel/DeepGliss/issues">GitHub</a>
 	</div>
         <h1 className="Section-header">About</h1>
 	<div className="Center-text">
