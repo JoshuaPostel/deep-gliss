@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/learning-react-typescript/static/css/main.e0b21db8.css",
-    "main.js": "/learning-react-typescript/static/js/main.f70173e7.js",
-    "static/js/787.624cf4fb.chunk.js": "/learning-react-typescript/static/js/787.624cf4fb.chunk.js",
-    "static/media/DeepGlissGreyOut.png": "/learning-react-typescript/static/media/DeepGlissGreyOut.937bfbc4bee7cab5194e.png",
-    "static/media/linux.svg": "/learning-react-typescript/static/media/linux.074fe898212a5dc45726d4283ee30c26.svg",
-    "static/media/apple.svg": "/learning-react-typescript/static/media/apple.3f6586607bacbf973a108ffdb23cf632.svg",
-    "index.html": "/learning-react-typescript/index.html",
-    "static/media/windows.svg": "/learning-react-typescript/static/media/windows.a68b627795269caddb8fce4e88c35788.svg",
-    "main.e0b21db8.css.map": "/learning-react-typescript/static/css/main.e0b21db8.css.map",
-    "main.f70173e7.js.map": "/learning-react-typescript/static/js/main.f70173e7.js.map",
-    "787.624cf4fb.chunk.js.map": "/learning-react-typescript/static/js/787.624cf4fb.chunk.js.map"
+    "main.css": "/DeepGliss/static/css/main.e0b21db8.css",
+    "main.js": "/DeepGliss/static/js/main.e9d16f8e.js",
+    "static/js/787.350cebfb.chunk.js": "/DeepGliss/static/js/787.350cebfb.chunk.js",
+    "static/media/DeepGlissGreyOut.png": "/DeepGliss/static/media/DeepGlissGreyOut.937bfbc4bee7cab5194e.png",
+    "static/media/linux.svg": "/DeepGliss/static/media/linux.074fe898212a5dc45726d4283ee30c26.svg",
+    "static/media/apple.svg": "/DeepGliss/static/media/apple.3f6586607bacbf973a108ffdb23cf632.svg",
+    "index.html": "/DeepGliss/index.html",
+    "static/media/windows.svg": "/DeepGliss/static/media/windows.a68b627795269caddb8fce4e88c35788.svg",
+    "main.e0b21db8.css.map": "/DeepGliss/static/css/main.e0b21db8.css.map",
+    "main.e9d16f8e.js.map": "/DeepGliss/static/js/main.e9d16f8e.js.map",
+    "787.350cebfb.chunk.js.map": "/DeepGliss/static/js/787.350cebfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0b21db8.css",
-    "static/js/main.f70173e7.js"
+    "static/js/main.e9d16f8e.js"
   ]
 }
