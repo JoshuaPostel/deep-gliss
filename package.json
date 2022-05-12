@@ -1,7 +1,7 @@
 {
-  "name": "my-app-ts",
+  "name": "deep-gliss",
   "version": "0.1.0",
-  "homepage": "https://joshuapostel.github.io/learning-react-typescript",
+  "homepage": "https://joshuapostel.github.io/deep-gliss",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
