@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learning-react-typescript/static/css/main.d666d504.css",
-    "main.js": "/learning-react-typescript/static/js/main.94803142.js",
+    "main.js": "/learning-react-typescript/static/js/main.5d8a5a18.js",
     "static/js/787.624cf4fb.chunk.js": "/learning-react-typescript/static/js/787.624cf4fb.chunk.js",
     "static/media/DeepGlissGreyOut.png": "/learning-react-typescript/static/media/DeepGlissGreyOut.937bfbc4bee7cab5194e.png",
     "static/media/linux.svg": "/learning-react-typescript/static/media/linux.074fe898212a5dc45726d4283ee30c26.svg",
@@ -9,11 +9,11 @@
     "index.html": "/learning-react-typescript/index.html",
     "static/media/windows.svg": "/learning-react-typescript/static/media/windows.a68b627795269caddb8fce4e88c35788.svg",
     "main.d666d504.css.map": "/learning-react-typescript/static/css/main.d666d504.css.map",
-    "main.94803142.js.map": "/learning-react-typescript/static/js/main.94803142.js.map",
+    "main.5d8a5a18.js.map": "/learning-react-typescript/static/js/main.5d8a5a18.js.map",
     "787.624cf4fb.chunk.js.map": "/learning-react-typescript/static/js/787.624cf4fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d666d504.css",
-    "static/js/main.94803142.js"
+    "static/js/main.5d8a5a18.js"
   ]
 }
