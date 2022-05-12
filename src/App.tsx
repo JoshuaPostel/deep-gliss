@@ -24,6 +24,13 @@ class App extends React.Component {
           <Button.Windows />
           <Button.Mac />
         </div>
+        <h1 className="Section-header">Audio Samples</h1>
+
+        <div className="SoundCloud-player-row">
+	  <SoundCloud.EmbeddedPlayer trackNumber={78986132} hexColor="000000" />
+	  <SoundCloud.EmbeddedPlayer trackNumber={244308292} hexColor="000000" />
+	  <SoundCloud.EmbeddedPlayer trackNumber={244308292} hexColor="000000" />
+        </div>
         <h1 className="Section-header">Setup</h1>
 	<ul className="Ul">
 	  <li>{'MIDI input -> DeepGliss -> Synthesizer'}</li>
@@ -34,13 +41,6 @@ class App extends React.Component {
 	    <li><a href="https://www.ableton.com/en/packs/operator/">Operator</a></li>
 	  </ul>
 	</ul>
-        <h1 className="Section-header">Audio Samples</h1>
-
-        <div className="SoundCloud-player-row">
-	  <SoundCloud.EmbeddedPlayer trackNumber={78986132} hexColor="000000" />
-	  <SoundCloud.EmbeddedPlayer trackNumber={244308292} hexColor="000000" />
-	  <SoundCloud.EmbeddedPlayer trackNumber={244308292} hexColor="000000" />
-        </div>
         <h1 className="Section-header">Feedback</h1>
 	<ul className="Ul">
 	  <li>Feedback via <a href="https://github.com/JoshuaPostel/DeepGliss/issues">Github</a> is greatly appreciated</li>
