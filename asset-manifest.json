@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DeepGliss/static/css/main.e0b21db8.css",
-    "main.js": "/DeepGliss/static/js/main.e9d16f8e.js",
-    "static/js/787.350cebfb.chunk.js": "/DeepGliss/static/js/787.350cebfb.chunk.js",
-    "static/media/DeepGlissGreyOut.png": "/DeepGliss/static/media/DeepGlissGreyOut.937bfbc4bee7cab5194e.png",
-    "static/media/linux.svg": "/DeepGliss/static/media/linux.074fe898212a5dc45726d4283ee30c26.svg",
-    "static/media/apple.svg": "/DeepGliss/static/media/apple.3f6586607bacbf973a108ffdb23cf632.svg",
-    "index.html": "/DeepGliss/index.html",
-    "static/media/windows.svg": "/DeepGliss/static/media/windows.a68b627795269caddb8fce4e88c35788.svg",
-    "main.e0b21db8.css.map": "/DeepGliss/static/css/main.e0b21db8.css.map",
-    "main.e9d16f8e.js.map": "/DeepGliss/static/js/main.e9d16f8e.js.map",
-    "787.350cebfb.chunk.js.map": "/DeepGliss/static/js/787.350cebfb.chunk.js.map"
+    "main.css": "/deep-gliss/static/css/main.e0b21db8.css",
+    "main.js": "/deep-gliss/static/js/main.caa27b23.js",
+    "static/js/787.dba640ab.chunk.js": "/deep-gliss/static/js/787.dba640ab.chunk.js",
+    "static/media/DeepGlissGreyOut.png": "/deep-gliss/static/media/DeepGlissGreyOut.937bfbc4bee7cab5194e.png",
+    "static/media/linux.svg": "/deep-gliss/static/media/linux.074fe898212a5dc45726d4283ee30c26.svg",
+    "static/media/apple.svg": "/deep-gliss/static/media/apple.3f6586607bacbf973a108ffdb23cf632.svg",
+    "index.html": "/deep-gliss/index.html",
+    "static/media/windows.svg": "/deep-gliss/static/media/windows.a68b627795269caddb8fce4e88c35788.svg",
+    "main.e0b21db8.css.map": "/deep-gliss/static/css/main.e0b21db8.css.map",
+    "main.caa27b23.js.map": "/deep-gliss/static/js/main.caa27b23.js.map",
+    "787.dba640ab.chunk.js.map": "/deep-gliss/static/js/787.dba640ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0b21db8.css",
-    "static/js/main.e9d16f8e.js"
+    "static/js/main.caa27b23.js"
   ]
 }
