@@ -1,9 +1,9 @@
 .Download-icon {
   background: #f0f0f0;
   border-radius: 10px;
-  width: 100px;
-  height: 100px;
-  display: block;
+  width: 50%;
+  height: 50%;
+  display: inline-block;
 }
 
 .Download-icon:hover {
@@ -11,18 +11,16 @@
 }
 
 .Download-icon-image {
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 40%;
+  position: relative;
+  margin: 25%;
   }
 
 .Holder {
-  margin-left: 50px;
-  margin-right: 50px;
-  width: 100px;
-  height: 100px;
+  width: 25%;
+  height: 25%;
+  max-width: 300px;
   position: relative;
   display: inline-block;
 }
