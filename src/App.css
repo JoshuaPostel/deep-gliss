@@ -30,7 +30,6 @@
 }
 
 .SoundCloud-player-row {
-  margin: 3px;
   text-align: center;
   position: relative;
 }
@@ -41,8 +40,8 @@
   border: none;
   display: inline;
   position: relative;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .Ul {
