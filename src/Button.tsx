@@ -27,7 +27,7 @@ export function Mac() {
   return(
 
     <div className="Holder">
-    <a className="Download-icon" href="TODO" title="macos">
+    <a className="Download-icon" href="https://github.com/JoshuaPostel/DeepGliss/" title="macos">
       <img className="Download-icon-image" alt="ImageName" src={mac} />
     </a>
     </div>
