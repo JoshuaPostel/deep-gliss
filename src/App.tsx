@@ -24,9 +24,6 @@ class App extends React.Component {
           <Button.Windows />
           <Button.Mac />
         </div>
-	<div className="Center-text">
-	  <text>Currently MacOS must be built from <a className="Link" href="https://github.com/JoshuaPostel/DeepGliss/">source</a></text>
-	</div>
         <h1 className="Section-header">Audio Samples</h1>
 
         <div className="SoundCloud-player-row">
