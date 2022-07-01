@@ -27,8 +27,12 @@ class App extends React.Component {
         <h1 className="Section-header">Audio Samples</h1>
 
         <div className="SoundCloud-player-row">
-	  <SoundCloud.EmbeddedPlayer trackNumber={1267237321} hexColor="000000" />
+	  <SoundCloud.EmbeddedPlayer trackNumber={1281541732} hexColor="000000" />
 	  <SoundCloud.EmbeddedPlayer trackNumber={1267237897} hexColor="000000" />
+        </div>
+        <div className="SoundCloud-player-row">
+	  <SoundCloud.EmbeddedPlayer trackNumber={1288365238} hexColor="000000" />
+	  <SoundCloud.EmbeddedPlayer trackNumber={1267237321} hexColor="000000" />
         </div>
         <h1 className="Section-header">Setup</h1>
 	<div className="Center-text">
