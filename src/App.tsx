@@ -43,6 +43,11 @@ class App extends React.Component {
 	  <li>In your DAW, route MIDI input into DeepGliss and the MIDI output of DeepGliss into your instrument</li>
 	  <li>Set DeepGliss's pitchbend range (under settings) to match the instrument's pitchbend range</li>
 	</ol>
+	<div className="Center-text">
+	  <iframe width="20%" src="https://www.youtube.com/embed/JLAV5rcD0sQ" title="Ableton Setup" frameBorder="0" allowFullScreen />
+	  <iframe width="10%" frameBorder="0" />
+	  <iframe width="20%" src="https://www.youtube.com/embed/qKgouPCmgdw" title="Bitwig Setup" frameBorder="0" allowFullScreen />
+	</div>
         <h1 className="Section-header">Feedback</h1>
 	<div className="Center-text">
 	  Bug reports, feature requests, presets, sounds, and general suggestions are greatly appreciated via <a className="Link" href="https://github.com/JoshuaPostel/DeepGliss/issues">GitHub</a>
