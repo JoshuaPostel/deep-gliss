@@ -47,6 +47,15 @@
   margin-left: 3%;
 }
 
+.Center-iframe {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.iframe {
+  width: 40%;
+}
+
 .Ul {
   display: table; 
   margin: 0 auto;
