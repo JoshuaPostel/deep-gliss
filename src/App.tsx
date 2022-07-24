@@ -39,7 +39,7 @@ class App extends React.Component {
 	  Requires an instrument with <a className="Link" href="https://en.wikipedia.org/wiki/MIDI#MIDI_Polyphonic_Expression">MIDI Polyphonic Expression</a> support such as <a className="Link" href="https://vital.audio/">Vital</a>, <a className="Link" href="https://www.ableton.com/en/packs/operator/">Operator</a>, or <a className="Link" href="https://www.ableton.com/en/packs/string-quartet/">Spitfire String Quartet</a>
 	</div>
 	<ol className="Ul">
-	  <li>Move the DeepGliss download to your VST2 plugin directory</li>
+	  <li>Move the DeepGliss download to your VST2 plugin directory (MacOS users must first unzip the download)</li>
 	  <li>In your DAW, route MIDI input into DeepGliss and the MIDI output of DeepGliss into your instrument</li>
 	  <li>Set DeepGliss's pitchbend range (under settings) to match the instrument's pitchbend range</li>
 	</ol>
@@ -50,7 +50,7 @@ class App extends React.Component {
 	</div>
         <h1 className="Section-header">Feedback</h1>
 	<div className="Center-text">
-	  Bug reports, feature requests, presets, sounds, and general suggestions are greatly appreciated via <a className="Link" href="https://github.com/JoshuaPostel/DeepGliss/issues">GitHub</a>
+	  Bug reports, feature requests, presets, sounds, and general suggestions are greatly appreciated via <a className="Link" href="https://github.com/JoshuaPostel/DeepGliss/issues">GitHub</a> or <a className="Link" href="deepglissplugin@gmail.com">deepglissplugin@gmail.com</a>
 	</div>
         <h1 className="Section-header">About</h1>
 	<div className="Center-text">

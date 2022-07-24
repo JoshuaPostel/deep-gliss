@@ -6,7 +6,7 @@ import mac from "./apple.svg"
 export function Linux() {
   return(
     <div className="Holder">
-      <a className="Download-icon" href="https://github.com/JoshuaPostel/DeepGliss/releases/download/0.1.4/DeepGliss.so" title="linux">
+      <a className="Download-icon" href="https://github.com/JoshuaPostel/DeepGliss/releases/download/0.1.5/DeepGliss.so" title="linux">
         <img className="Download-icon-image" alt="ImageName" src={linux} />
       </a>
     </div>
@@ -16,7 +16,7 @@ export function Linux() {
 export function Windows() {
   return(
     <div className="Holder">
-      <a className="Download-icon" href="https://github.com/JoshuaPostel/DeepGliss/releases/download/0.1.4/DeepGliss.dll" title="windows">
+      <a className="Download-icon" href="https://github.com/JoshuaPostel/DeepGliss/releases/download/0.1.5/DeepGliss.dll" title="windows">
         <img className="Download-icon-image" alt="ImageName" src={windows} />
       </a>
     </div>
@@ -27,7 +27,7 @@ export function Mac() {
   return(
 
     <div className="Holder">
-    <a className="Download-icon" href="https://github.com/JoshuaPostel/DeepGliss/releases/download/0.1.4/DeepGliss.dylib" title="macos">
+    <a className="Download-icon" href="https://github.com/JoshuaPostel/DeepGliss/releases/download/0.1.5/DeepGliss.vst.zip" title="macos">
       <img className="Download-icon-image" alt="ImageName" src={mac} />
     </a>
     </div>
